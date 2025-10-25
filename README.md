@@ -48,26 +48,4 @@ Power BI
 
 ## 📂 Структура проекта
 
-banking_analytics/
-├── api/ # Интеграция с внешними API
-│ ├── init.py
-│ └── currency_api.py # Получение курсов валют от ЦБ РФ
-├── config/ # Конфигурация проекта
-│ ├── init.py
-│ └── config.py # Настройки окружения
-├── data_generator/ # Генерация синтетических данных
-│ ├── init.py
-│ └── fake_data_generator.py # Генератор банковских данных
-├── database/ # Работа с базой данных
-│ ├── init.py
-│ ├── db_connection.py # Подключение к PostgreSQL
-│ └── schema_creation.sql # SQL схемы staging и DWH
-├── etl/ # ETL процессы
-│ ├── init.py
-│ ├── extract.py # Извлечение данных из staging
-│ ├── transform.py # Очистка и обогащение данных
-│ └── load.py # Загрузка в схему звезда
-├── create_schemas.py # Скрипт создания таблиц
-├── main.py # Главный файл запуска pipeline
-├── requirements.txt # Зависимости проекта
-└── README.md # Документация
+<img width="398" height="468" alt="image" src="https://github.com/user-attachments/assets/d04cd5cb-b6eb-4bb0-a26b-b068b8e3240a" />
